@@ -1,3 +1,5 @@
+# This is a fork of the ADXL-Probe by jniebuhr to allow x and y homing with it, full credits go to the original project and the original license still applies
+
 # ADXL345 Probe
 [![](https://dcbadge.vercel.app/api/server/APw7rgPGPf)](https://delta2.eu/discord)
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
@@ -22,8 +24,8 @@ I also measured the force on the bed using a standard kitchen scale, this was ap
 
 ```bash
 cd $HOME
-git clone https://github.com/jniebuhr/adxl345-probe
-cd adxl345-probe
+git clone https://github.com/DEAth1981/ADXL345-Probe
+cd ADXL345-Probe
 ./scripts/install.sh
 ```
 
@@ -38,6 +40,7 @@ For a ADXL345 breakout board, simply run a wire. If you're using a CAN toolboard
 | ------ | :-------: | ------- | --------- | ---- |
 | Mellow Fly SB2040 (v1/v2) | ✓ | int1 | gpio21 | https://aliexpress.com/item/1005004675264551.html |
 | Mellow Fly SHT36 v2 | ✓ | int1 | PA10 | https://aliexpress.com/item/1005004675264551.html |
+| Mellow Fly SHT36 Pro | ✓ | int1 | gpio29 | |
 | Huvud | ✓ | ? | ? | |
 | NiteHawk | ✓ | int1 | gpio21 |
 | EBB36 | with soldering | int1/int2 | choose | |
